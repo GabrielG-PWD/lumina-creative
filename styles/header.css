@@ -1,0 +1,31 @@
+.header {
+  margin: 1.5rem auto;
+}
+
+.header .logo {
+  width: 130px;
+}
+
+.header .header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .main-menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.header .main-menu a {
+  padding: 0.5rem 1rem;
+}
+
+.header .main-menu a:hover {
+  background-color:  var(--primary-color);
+}
+
+.current {
+  background-color:  var(--primary-color);
+  font-weight: 600;
+}

@@ -1,0 +1,13 @@
+.hero {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  line-height: 1.4;
+  font-weight: normal;
+}
